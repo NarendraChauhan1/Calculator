@@ -1,0 +1,146 @@
+body {
+  background-image: url(Images/9024863.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px black solid;
+  height: 510px;
+  width: 380px;
+}
+
+.screen {
+  height: 175px;
+  width: 350px;
+  border: 2px black solid;
+  margin-top: 25px;
+}
+
+.keySetOne {
+  width: 80px;
+  height: 60px;
+  border: 2px black solid;
+  margin: 5px;
+}
+
+.keySetTwo {
+  width: 80px;
+  height: 134px;
+  border: 2px black solid;
+  margin: 5px;
+  margin-bottom: 3px;
+}
+
+.keySetZero {
+  width: 175px;
+  height: 60px;
+  border: 2px black solid;
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstLine,
+.secondLine,
+.thirdLine,
+.fourthLine,
+.fifthLine {
+  display: flex;
+}
+
+.containerTwo {
+  display: flex;
+  flex-direction: row;
+}
+
+.setOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.setTwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.enter {
+  height: 133px;
+  margin-top: 6px;
+}
+
+.funs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px; /* Optional: adds spacing between items */
+}
+
+.esc,
+.backspace {
+  width: 80px;
+  height: 30px;
+  border: 2px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.backspace {
+  align-self: flex-end; /* or adjust this based on your layout needs */
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
+.logo {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.esc {
+  margin-left: 76px;
+  margin-right: 0px;
+  margin-top: 6px;
+}
+
+.keySetOne,
+.keySetTwo,
+.keySetZero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  border-radius: 5px;
+}
+
+.calculator {
+  border-radius: 15px;
+}
+
+.screen {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.numLock {
+  text-align: center;
+}
